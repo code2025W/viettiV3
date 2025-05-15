@@ -1,0 +1,98 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: linear-gradient(135deg, #4a6fa5, #3b5a8a);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+main {
+  padding: 40px 0;
+}
+
+.flex-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.flex-section .text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.flex-section .image {
+  flex: 1;
+  text-align: right;
+}
+
+.flex-section .image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #4a6fa5;
+  border-bottom: 3px solid #4a6fa5;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #4a6fa5;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 1rem;
+}
